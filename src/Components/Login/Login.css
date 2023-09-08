@@ -1,0 +1,58 @@
+.page-container{
+    height: 100%;
+    width: 100%;
+}
+
+
+.login-container{
+    height: 90%;
+    background-color: #E6E8E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-box{
+    height: 600px;
+    width: 450px;
+    background-color: #FBFFFE;
+    border-radius: 10px;
+    box-shadow: 4px 5px 20px 0px #BCBDC0;
+    font-family: "Vanilla Ravioli";
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+.l-labels{
+    font-family:"Vercetti";
+    font-size: 20px;
+    text-align: left;
+    margin: 30px 40% 0 5%;
+}
+
+input{
+    width: 90%;
+    margin: 0 10px 0 20px;
+    padding: 0;
+    height: 25px;
+    border:none; 
+    border-bottom: 1px solid #BCBDC0;
+    background: transparent;
+}
+.l-error{
+    height: 20px;
+    width: 90%;
+    margin: 0 10px 0 20px;
+}
+.l-button{
+    text-align: center;
+    margin-top:auto;
+    margin-bottom: 100px;
+}
+.login-btn{
+    padding: 10px 40px ;
+    font-size: 15px ;
+}
